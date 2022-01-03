@@ -9,6 +9,7 @@ import { Route, BrowserRouter, Routes } from 'react-router-dom'
 
 //servidor
 import { AuthContextProvider } from './contexts/AuthContext';
+import { Room } from './pages/Room';
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home/>} />
           <Route path="/rooms/new" element={<NewRoom/>} />
+          <Route path="/rooms/:id" element={<Room/>} />
         </Routes>
       </AuthContextProvider>
     </BrowserRouter>
