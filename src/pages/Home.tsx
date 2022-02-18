@@ -1,4 +1,6 @@
 import illustrationImg from '../assets/images/illustration.svg'
+import letmeAskImg from '../assets/images/letmeask2.png'
+import backgroundImg from '../assets/images/background.png'
 import logoImg from '../assets/images/logo.svg'
 import googleIconImg from '../assets/images/google-icon.svg'
 import { useNavigate } from "react-router-dom"
@@ -49,13 +51,13 @@ export function Home() {
      return (
           <div id="page-auth">
                <aside>
-                    <img src={illustrationImg} alt="Ilustração simbolizando perguntas e respostas"/>
+                    <img src={backgroundImg} alt="Ilustração simbolizando perguntas e respostas"/>
                     <strong>Crie sala de Q&amp;A ao vivo</strong>
                     <p>Tire as duvidas de sua audiencia em tempo-real</p>
                </aside>
                <main>
                     <div className='main-content'>
-                         <img src={logoImg} alt="Letmeask"/>
+                         <img src={letmeAskImg} alt="Letmeask"/>
                          <button className='create-room' onClick={handleCreateRoom}>
                               <img src={googleIconImg} alt="logo do Google"/>
                             Crie sua sala com o Google  

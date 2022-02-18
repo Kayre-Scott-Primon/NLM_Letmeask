@@ -11,7 +11,8 @@
                align-items: center;
 
                > img {
-                    max-height: 45px;
+                    max-height: 100px;
+                    max-width: 100px;
                }
 
                > div {
@@ -41,7 +42,7 @@
 
                span {
                     margin-left: 16px;
-                    background: #e559f9;
+                    background: #2FD343;
                     border-radius: 9999px;
                     padding: 8px 16px;
                     color: #fff;
@@ -93,7 +94,7 @@
                          button {
                               background: transparent;
                               border: 0;
-                              color: #835afd;
+                              color: #2FD343;
                               text-decoration: underline;
                               font-size: 14px;
                               font-weight: 500;
